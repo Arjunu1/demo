@@ -1,6 +1,6 @@
 {
   "fetchTenure": {
-"response":”Success”,
+"response":"Success",
 "respCode":"200",
 "merchantId":"470000000001111",
 "terminalId":"12345678",
@@ -31,7 +31,7 @@
 }
 ,
   "fetchScheme": {
-"response":”Success”,
+"response":"Success",
 "respCode":"200",
 "merchantId":"470000000001111",
 "terminalId":"12345678",
@@ -59,7 +59,7 @@
 }
 ,
   "calculateEMI": {
-"response":”Success”,
+"response":"Success",
 "respCode":"200",
 "merchantId":"470000000001111",
 "terminalId":"12345678",
@@ -83,7 +83,7 @@
  ,
  "ConfirmEMI":
   {
-"response":”Success”,
+"response":"Success",
 "respCode":"200",
 "merchantId":"470000000001111",
 "terminalId":"12345678",
