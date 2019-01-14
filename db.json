@@ -1,14 +1,113 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "fetchTenure": {
+"response":”Success”,
+"respCode":"200",
+"merchantId":"470000000001111",
+"terminalId":"12345678",
+"bajajMId":"123456789012345",
+"bajajTId":"12345678",
+"ain":"4700000",
+"type":"01",
+"tenureList": 
+[
+{
+		"numeric":"3",
+"character":"THREE"
+},
+{
+		"numeric":"6",
+"character":"SIX"
+}
+
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+
+"source":"TERMINAL",
+"paramDownloadFlag":"Y",
+"resDate":"20160903",
+"resTime":"171609",
+"field1":"StringStringStringSt",
+"field2":"StringStringStringSt",
+"field3":"StringStringStringSt"
+}
+,
+  "fetchScheme": {
+"response":”Success”,
+"respCode":"200",
+"merchantId":"470000000001111",
+"terminalId":"12345678",
+"bajajMId":"123456789012345",
+"bajajTId":"12345678",
+"ain":"4700000",
+"type":"01",
+"tenure":"3",
+"schemeList": 
+[
+{
+		"schemeId":"12345678",
+"schemeDescription":"23456+10/2",
+"processingFees":"23456+10/2",
+"advanceEmi":"1"
+}
   ],
-  "profile": {
-    "name": "typicode"
-  }
+"source":"TERMINAL",
+"paramDownloadFlag":"Y",
+"resDate":"20160903",
+"resTime":"171609",
+"field1":"StringStringStringSt",
+"field2":"StringStringStringSt",
+"field3":"StringStringStringSt"
+}
+,
+  "calculateEMI": {
+"response":”Success”,
+"respCode":"200",
+"merchantId":"470000000001111",
+"terminalId":"12345678",
+"bajajMId":"123456789012345",
+"bajajTId":"12345678",
+"ain":"4700000",
+"type":"01",
+"source":"TERMINAL",
+"tranAmount":"123456789012345",
+"schemeId":"2345243",
+"advanceEmi":"1",
+"balanceEmi":"8",
+"emiAmount":"123456789012345",
+"paramDownloadFlag":"Y",
+"resDate":"20160903",
+"resTime":"171609",
+"field1":"StringStringStringSt",
+"field2":"StringStringStringSt",
+"field3":"StringStringStringSt"
+}
+ ,
+ "ConfirmEMI":
+  {
+"response":”Success”,
+"respCode":"200",
+"merchantId":"470000000001111",
+"terminalId":"12345678",
+"bajajMId":"123456789012345",
+"bajajTId":"12345678",
+"ain":"4700000",
+"type":"01",
+"source":"TERMINAL",
+"tranAmount":"123456789012345",
+"schemeId":"2345243",
+"advanceEmi":"1",
+"balanceEmi":"8",
+"emiAmount":"123456789012345",
+"rrn":"123456789012",
+"authCode":"123456",
+"firstDueDate":"01/01/2018",
+"dealerId":"CS123456789012",
+"customerName":"Customer Name",
+"paramDownloadFlag":"Y",
+"resDate":"20160903",
+"resTime":"171609",
+"field1":"StringStringStringSt",
+"field2":"StringStringStringSt",
+"field3":"StringStringStringSt"
+}
+
 }
